@@ -1,30 +1,9 @@
-﻿========================================================================
-    BIBLIOTHÈQUE DE LIENS DYNAMIQUES : Vue d'ensemble du projet KeepCalmEngine
-========================================================================
+﻿//////////////////KeepKalmEngine////////////////
+It's the core of the program
+It has 4 main functionalities : 
+-Organize by Size (I may change the catsizeoffile function which generates an alert)
+-Organize by Date 
+-Organize by extension
+-Organize by type : which uses the ExtOfFile.lot which contains the type of each file extension i did a structure by my self which i think helps more i wanted to create indexes to find faster the types but i didn't had type to do it feel free to add something 
 
-AppWizard a créé cette DLL KeepCalmEngine pour vous.
-
-Ce fichier contient un résumé du contenu de chacun des fichiers qui constituent votre application KeepCalmEngine.
-
-
-KeepCalmEngine.vcxproj
-    Il s'agit du fichier projet principal pour les projets VC++ générés à l'aide d'un Assistant Application. Il contient des informations sur la version de Visual C++ utilisée pour générer le fichier ainsi que des informations relatives aux plateformes, configurations et fonctionnalités du projet que vous avez sélectionnées dans l'Assistant Application.
-
-KeepCalmEngine.vcxproj.filters
-    Il s'agit du fichier de filtres pour les projets VC++ générés à l'aide d'un Assistant Application. Il contient des informations sur l'association entre les fichiers de votre projet et les filtres. Cette association est utilisée dans l'IDE pour afficher le regroupement des fichiers qui ont des extensions similaires sous un nœud spécifique (par exemple, les fichiers ".cpp" sont associés au filtre "Fichiers sources").
-
-KeepCalmEngine.cpp
-    Il s'agit du fichier source principal de la DLL.
-
-/////////////////////////////////////////////////////////////////////////////
-Autres fichiers standard :
-
-StdAfx.h, StdAfx.cpp
-    Ces fichiers sont utilisés pour générer un fichier d'en-tête précompilé (PCH) KeepCalmEngine.pch et un fichier de type précompilé nommé StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Autres remarques :
-
-AppWizard utilise des commentaires "TODO:" pour indiquer les parties du code source où vous devrez ajouter ou modifier du code.
-
-/////////////////////////////////////////////////////////////////////////////
+I think the code is easy enough to understand i didn't do something big this was an easy thing but cool to do

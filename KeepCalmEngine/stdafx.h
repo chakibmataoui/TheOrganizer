@@ -11,6 +11,3 @@
 // Fichiers d'en-tête Windows :
 #include <windows.h>
 #include <Shlwapi.h>
-
-
-// TODO: faites référence ici aux en-têtes supplémentaires nécessaires au programme
