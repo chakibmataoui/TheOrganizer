@@ -1,11 +1,11 @@
-﻿La génération a démarré 21/01/2016 16:08:46.
+﻿La génération a démarré 25/01/2016 23:17:53.
      1>Projet "C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\The Organizer\The Organizer.vcxproj" sur le nœud 2 (Build cible(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\\KeepCalmEngine\\" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\ressource.res" ressource.rc 
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\Release\.exe) does not match the Linker's OutputFile property value (C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\Release\The Organizer.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\Release\The Organizer.exe" /NOLOGO /LIBPATH:"C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\Release" KeepCalmEngine.lib Shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\Release\The Organizer.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\Release\The Organizer.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\Release\The Organizer.exe" /NOLOGO /LIBPATH:"C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\Release" KeepCalmEngine.lib Shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\Release\The Organizer.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\Release\The Organizer.lib" /MACHINE:X86 /SAFESEH Release\ressource.res
+         Release\main.obj
          "C:\Users\mataoui\Documents\Visual Studio 2013\Projects\DeskCleaner\Release\KeepCalmEngine.lib"
          Génération de code en cours
          Fin de la génération du code
@@ -14,4 +14,4 @@
 
 La génération a réussi.
 
-Temps écoulé 00:00:13.92
+Temps écoulé 00:00:01.62
