@@ -37,6 +37,10 @@ Source: "C:\Users\mataoui\Desktop\The Organizer\KeepCalmEngine.dll"; DestDir: "{
 Source: "C:\Users\mataoui\Desktop\The Organizer\ExtFile.lot"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\mataoui\Desktop\The Organizer\README.txt"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\mataoui\Desktop\The Organizer\org.ico"; DestDir: "{app}"; Flags: ignoreversion
+;Microsoft libraries
+Source: "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\redist\x86\Microsoft.VC120.CRT\msvcp120.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\redist\x86\Microsoft.VC120.CRT\msvcr120.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\redist\x86\Microsoft.VC120.CRT\vccorlib120.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

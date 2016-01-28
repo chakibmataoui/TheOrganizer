@@ -18,9 +18,6 @@
 #include <KeepCalmEngine.h>
 #define atoiw _wtoi
 
-wchar_t* ArrangePath(wchar_t* Org){
-	//modify the exsiting path and creating a new string and freeing the older one
-}
 
 int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nCmdShow)
 {
