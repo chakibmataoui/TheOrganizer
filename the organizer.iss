@@ -26,7 +26,7 @@ SolidCompression=yes
 WizardImageFile=C:\Users\mataoui\Desktop\The Organizer\original organizer.bmp
 WizardSmallImageFile=C:\Users\mataoui\Desktop\The Organizer\oic.bmp
 SetupIconFile= C:\Users\mataoui\Desktop\The Organizer\org.ico
-
+UninstallDisplayIcon=  C:\Users\mataoui\Desktop\The Organizer\org.ico
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "french"; MessagesFile: "compiler:Languages\French.isl"
