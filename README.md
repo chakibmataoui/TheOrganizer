@@ -8,5 +8,4 @@
 <p>
 Project Team : <br>
 -Chakib Mataoui (Developer) <br>
--Nassim Hadj-Djilani (Idea)
 </p>
