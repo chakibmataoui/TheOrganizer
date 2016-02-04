@@ -30,7 +30,7 @@ int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,i
 	wchar_t fct[5];//copying the functionallity paramtre because strcat of cmdargv[1] changes it
 	lstrcpynW(fct, cmdArgv[2],5);
 	if (!cmdArgv[1]){
-		MessageBox(NULL, "Error with path name", "Path error", MB_OK);
+		system("start README.html");
 		goto end;
 	}
 	//Set program path to send it to cleanbytype

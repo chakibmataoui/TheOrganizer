@@ -147,7 +147,7 @@ int KeepCalm::CleanBySize(wchar_t* Src_Path)
 	do
 	{
 		//Working with files only
-		if (fileinf.dwFileAttributes != FILE_ATTRIBUTE_DIRECTORY)
+		if (fileinf.dwFileAttributes != FILE_ATTRIBUTE_DIRECTORY )
 		{
 			//get size of file B,KB,MB,GB
 			Size = KCU::CatSizeOfFile(fileinf.nFileSizeLow, fileinf.nFileSizeHigh);
